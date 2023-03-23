@@ -1,0 +1,14 @@
+/.vscode
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+_ide_helper.php
+.env
+.env.backup
+.phpunit.result.cache
+error_log
+npm-debug.log
+.php-cs-fixer.cache

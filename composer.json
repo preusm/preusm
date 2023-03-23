@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "bensampo/laravel-enum": "^6.2",
-        "beyondcode/laravel-server-timing": "dev-master",
+        "beyondcode/laravel-server-timing": "*",
         "doctrine/dbal": "^3.4",
         "filament/filament": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
@@ -31,7 +31,7 @@
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.12",
-        "emielmolenaar/phpcs-laravel": "*",
+        "emielmolenaar/phpcs-laravel": "^2.1",
         "fakerphp/faker": "^1.9.1",
         "friendsofphp/php-cs-fixer": "^3.10",
         "getsolaris/laravel-make-service": "^1.1",

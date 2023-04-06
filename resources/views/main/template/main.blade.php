@@ -17,9 +17,11 @@
   </head>
   <body class="bg-gray-100 dark:bg-gray-900 dark:text-white" >
     <div id="app">
-      @include('admin.template.navbar')
+      @include('main.template.navbar')
 
       @yield('content')
+
+      @include('main.template.footer')
     </div>
 
     <script defer src="{{ mix('/js/manifest.js') }}"></script>

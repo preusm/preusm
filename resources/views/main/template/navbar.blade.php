@@ -1,22 +1,19 @@
-<nav class="h-16 bg-indigo-800 w-full flex text-white px-4 gap-2">
-  <a class="my-auto mr-8" href="{{ route('admin.index') }}">
-    <h2 class="font-medium text-lg  text-white" hf>
-      Home
-    </h2>
-  </a>
-  <div class="flex items-center gap-3">
+<div class="bg-blue-500 w-full h-16flex ">
+  <div class="px-4 mx-auto bg-red-500 h-16 container items-center justify-between flex">
     <div>
-      tag 1
+      Preusm
     </div>
-    <div>
-      tag 2
+
+    <div class="flex gap-3">
+      <div>
+        Estudiantes
+      </div>
+      <div>
+        Colaboradores
+      </div>
+      <div>
+        Nosotros
+      </div>
     </div>
   </div>
-  <div class="ml-auto"></div>
-  <div class="my-auto">
-    {{ auth()->user()->name ?? 'guest' }}
-  </div>
-  <a class="my-auto bg-indigo-900 p-2 rounded" href="{{ route('auth.logout') }}">
-    Log out
-  </a>
-</nav>
+</div>
